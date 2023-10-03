@@ -11,10 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  authentication_repository:
-    path: packages/authentication_repository
-  form_inputs:
-    path: packages/form_inputs
   equatable: ^2.0.5
   cupertino_icons: ^1.0.2
   firebase_core: ^2.16.0
@@ -22,6 +18,11 @@ dependencies:
   google_fonts: ^4.0.0
   meta: ^1.7.0
   flutter_bloc: ^8.1.3
+  rflutter_alert: ^2.0.7
+  loading_overlay: ^0.3.0
+  firebase_auth: ^4.10.0
+  shake: ^2.2.0
+  translator: ^0.1.7
 
 dev_dependencies:
   bloc_test: ^9.0.0
@@ -35,3 +36,6 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+    - assets/images/
+    - assets/images/icons/google.png
